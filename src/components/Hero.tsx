@@ -12,11 +12,11 @@ const Hero = () => {
         <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold text-slate-light mb-4">Zaynoun Jamal.</h2>
       </div>
       <div className="animate-fade-in animation-delay-600">
-        <h3 className="text-4xl sm:text-5xl md:text-6xl font-bold text-slate mb-8">I build things for the web.</h3>
+        <h3 className="text-4xl sm:text-5xl md:text-6xl font-bold text-slate mb-8">I build exceptional digital experiences.</h3>
       </div>
       <div className="animate-fade-in animation-delay-800 max-w-xl">
         <p className="text-lg text-slate mb-12">
-          I'm a full-stack developer and computer science senior specializing in building exceptional digital experiences. Currently, I'm focused on crafting scalable, AI-powered web and mobile applications with modern technologies.
+          I'm a full-stack developer specializing in building robust, scalable web and mobile applications. Currently completing my Computer Science degree, I combine technical expertise with creative problem-solving to deliver high-performance digital solutions that elevate user experiences.
         </p>
       </div>
       <div className="animate-fade-in animation-delay-800">
@@ -24,7 +24,7 @@ const Hero = () => {
           href="#projects" 
           className="inline-block border border-highlight rounded px-7 py-4 text-highlight font-mono text-sm hover:bg-highlight/10 transition-colors"
         >
-          Check out my work
+          View my portfolio
         </a>
       </div>
       

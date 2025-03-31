@@ -9,7 +9,7 @@ const Contact = () => {
       <h2 className="text-4xl md:text-5xl font-bold text-slate-light mb-5">Get In Touch</h2>
       
       <p className="max-w-md mx-auto text-slate mb-12">
-        I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+        I'm currently exploring new opportunities where I can apply my full-stack development skills to create impactful digital solutions. Whether you have a project in mind, a position to fill, or just want to connect, I'd love to hear from you!
       </p>
       
       <a 
@@ -20,16 +20,16 @@ const Contact = () => {
       </a>
       
       <div className="flex justify-center gap-8 mt-16">
-        <a href="mailto:zaynounjamal77@gmail.com" aria-label="Email" className="text-slate hover:text-highlight transition-colors">
+        <a href="mailto:zaynounjamal77@gmail.com" aria-label="Email" className="text-slate hover:text-highlight transition-colors" title="Email">
           <Mail size={24} />
         </a>
-        <a href="#" aria-label="LinkedIn" className="text-slate hover:text-highlight transition-colors">
+        <a href="https://www.linkedin.com/in/zaynoun-jamal" aria-label="LinkedIn" className="text-slate hover:text-highlight transition-colors" title="LinkedIn">
           <Linkedin size={24} />
         </a>
-        <a href="#" aria-label="GitHub" className="text-slate hover:text-highlight transition-colors">
+        <a href="https://github.com/zaynoun" aria-label="GitHub" className="text-slate hover:text-highlight transition-colors" title="GitHub">
           <Github size={24} />
         </a>
-        <a href="#" aria-label="Resume" className="text-slate hover:text-highlight transition-colors">
+        <a href="/resume.pdf" aria-label="Resume" className="text-slate hover:text-highlight transition-colors" title="Download Resume">
           <FileText size={24} />
         </a>
       </div>

@@ -9,19 +9,19 @@ const About = () => {
       <div className="grid md:grid-cols-3 gap-12">
         <div className="md:col-span-2 space-y-4 text-slate">
           <p>
-            Hello! I'm Zaynoun, a passionate Full-Stack Developer and Computer Science senior at the Lebanese University. I specialize in building exceptional digital experiences that combine powerful functionality with elegant design.
+            Hello! I'm Zaynoun, a full-stack developer with a passion for creating powerful, elegant digital solutions. Currently in my final year pursuing a Computer Science degree at the Lebanese University, I combine academic knowledge with hands-on experience in modern web and mobile development.
           </p>
           
           <p>
-            My journey in tech started with a fascination for creating things that live on the internet. This passion has grown into expertise in crafting scalable, AI-powered web and mobile applications using modern technologies.
+            My journey began with a curiosity about how digital products are built, which evolved into expertise across the entire development stack. I specialize in crafting responsive web applications with React.js and Next.js, building robust backends with Laravel and Node.js, and developing intuitive mobile experiences with React Native and Kotlin.
           </p>
           
           <p>
-            With a focus on building high-performance, user-friendly, and visually engaging digital solutions, I strive to solve complex problems through clean, efficient code and intuitive design.
+            What sets me apart is my holistic approach to development—I don't just write code; I architect solutions that balance performance, aesthetics, and user experience. I'm particularly interested in leveraging AI technologies to create smarter applications that solve real-world problems efficiently.
           </p>
           
           <p>
-            As I approach the completion of my Computer Science degree, I'm eager to apply my skills and knowledge to create innovative solutions that make a positive impact.
+            When I'm not coding, I'm continuously expanding my knowledge through research, contributing to open-source projects, and mentoring aspiring developers. I'm driven by the belief that great software should be both powerful and accessible.
           </p>
         </div>
         

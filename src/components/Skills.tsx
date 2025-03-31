@@ -14,8 +14,9 @@ const skillCategories = [
     title: "Frameworks & Technologies",
     skills: [
       "React.js", "Next.js", "Tailwind CSS", "Redux",
-      "Laravel", "Node.js", "Express.js",
-      "MySQL", "Firebase"
+      "Laravel", "Node.js", "Express.js", "React Native",
+      "MySQL", "MongoDB", "PostgreSQL", "Firebase",
+      "RESTful APIs", "GraphQL", "WebSockets"
     ]
   },
   {
@@ -23,15 +24,21 @@ const skillCategories = [
     skills: [
       "Responsive Design with Tailwind CSS",
       "Interactive Animations & 3D Effects",
-      "SEO Optimization & Performance Tuning"
+      "Progressive Web Apps (PWA)",
+      "Webpack & Vite Optimization",
+      "SEO Optimization & Performance Tuning",
+      "Accessibility (WCAG) Compliance"
     ]
   },
   {
-    title: "Soft Skills",
+    title: "Soft Skills & Methodologies",
     skills: [
       "Problem Solving & Critical Thinking",
+      "Agile & Scrum Methodologies",
+      "Git Version Control & CI/CD",
       "Team Leadership & Effective Communication",
-      "Time Management & Workflow Optimization"
+      "Time Management & Workflow Optimization",
+      "Technical Documentation & Knowledge Transfer"
     ]
   }
 ];

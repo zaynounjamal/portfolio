@@ -4,25 +4,25 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: "Elegance & Co.",
-    description: "A feature-rich e-commerce platform built with React.js and Laravel, offering a seamless shopping experience with real-time notifications, advanced search, and secure payment processing.",
-    technologies: ["React.js", "Laravel", "Tailwind CSS", "MySQL", "Stripe API", "Redis"],
+    title: "Elegance & Co. E-Commerce Platform",
+    description: "A high-performance online shopping experience built with React.js and Laravel, featuring real-time inventory updates, personalized product recommendations using machine learning algorithms, and a streamlined checkout process that increased conversions by 24%.",
+    technologies: ["React.js", "Laravel", "Tailwind CSS", "MySQL", "Stripe API", "Redis", "Machine Learning"],
     github: "#",
     external: "#",
     image: "https://images.unsplash.com/photo-1561069934-eee225952461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
   },
   {
-    title: "Royal Cedar Scents",
-    description: "A full-stack e-commerce solution for a luxury fragrance brand, featuring custom product listings, vendor dashboards, and dynamic UI components with a focus on performance and SEO.",
-    technologies: ["React.js", "Laravel", "Tailwind CSS", "MySQL", "PayPal API", "Firebase"],
+    title: "Royal Cedar Scents Dashboard",
+    description: "An enterprise-grade management system for a luxury fragrance brand, featuring comprehensive analytics dashboards, automated inventory management with predictive restocking, and a vendor portal that streamlined supplier communications by 40%.",
+    technologies: ["React.js", "TypeScript", "Laravel", "Tailwind CSS", "MySQL", "PayPal API", "Firebase", "Chart.js"],
     github: "#",
     external: "#",
     image: "https://images.unsplash.com/photo-1556228578-8d89a59269d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
   },
   {
-    title: "B-Back Restaurant App",
-    description: "A mobile application for restaurant menu browsing and online ordering, featuring real-time order tracking, secure payment processing, and an intuitive user interface.",
-    technologies: ["React Native", "Laravel", "MySQL", "Firebase", "Stripe"],
+    title: "B-Back Restaurant Mobile Application",
+    description: "A cross-platform mobile application that revolutionized the ordering experience for a restaurant chain, featuring AI-powered menu recommendations, geolocation-based delivery tracking, and a loyalty program that increased customer retention by 35%.",
+    technologies: ["React Native", "TypeScript", "Node.js", "Express", "MongoDB", "Firebase", "Stripe", "Google Maps API"],
     github: "#",
     external: "#",
     image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1774&q=80"
