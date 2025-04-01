@@ -23,10 +23,10 @@ const Contact = () => {
         <a href="mailto:zaynounjamal77@gmail.com" aria-label="Email" className="text-slate hover:text-highlight transition-colors" title="Email">
           <Mail size={24} />
         </a>
-        <a href="https://www.linkedin.com/in/zaynoun-jamal" aria-label="LinkedIn" className="text-slate hover:text-highlight transition-colors" title="LinkedIn">
+        <a href="https://www.linkedin.com/in/zaynounjamal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" aria-label="LinkedIn" className="text-slate hover:text-highlight transition-colors" title="LinkedIn">
           <Linkedin size={24} />
         </a>
-        <a href="https://github.com/zaynoun" aria-label="GitHub" className="text-slate hover:text-highlight transition-colors" title="GitHub">
+        <a href="https://github.com/zaynounjamal" aria-label="GitHub" className="text-slate hover:text-highlight transition-colors" title="GitHub">
           <Github size={24} />
         </a>
         <a href="/resume.pdf" aria-label="Resume" className="text-slate hover:text-highlight transition-colors" title="Download Resume">

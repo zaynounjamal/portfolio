@@ -7,16 +7,16 @@ const skillCategories = [
     skills: [
       "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3",
       "PHP", "Java", "Python", "C", "C++", "XML",
-      "Kotlin (Android)"
+      "Kotlin (Android)","C#"
     ]
   },
   {
     title: "Frameworks & Technologies",
     skills: [
-      "React.js", "Next.js", "Tailwind CSS", "Redux",
-      "Laravel", "Node.js", "Express.js", "React Native",
-      "MySQL", "MongoDB", "PostgreSQL", "Firebase",
-      "RESTful APIs", "GraphQL", "WebSockets"
+      "React.js", "Tailwind CSS",
+      "Laravel","React Native",
+      "MySQL","Firebase",
+      "RESTful APIs","ASP.NET"
     ]
   },
   {

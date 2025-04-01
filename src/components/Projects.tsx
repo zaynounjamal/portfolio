@@ -4,28 +4,27 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: "Elegance & Co. E-Commerce Platform",
+    title: "Elegance & Co. E-Commerce",
     description: "A high-performance online shopping experience built with React.js and Laravel, featuring real-time inventory updates, personalized product recommendations using machine learning algorithms, and a streamlined checkout process that increased conversions by 24%.",
-    technologies: ["React.js", "Laravel", "Tailwind CSS", "MySQL", "Stripe API", "Redis", "Machine Learning"],
-    github: "#",
-    external: "#",
-    image: "https://images.unsplash.com/photo-1561069934-eee225952461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
-  },
-  {
-    title: "Royal Cedar Scents Dashboard",
-    description: "An enterprise-grade management system for a luxury fragrance brand, featuring comprehensive analytics dashboards, automated inventory management with predictive restocking, and a vendor portal that streamlined supplier communications by 40%.",
-    technologies: ["React.js", "TypeScript", "Laravel", "Tailwind CSS", "MySQL", "PayPal API", "Firebase", "Chart.js"],
-    github: "#",
-    external: "#",
-    image: "https://images.unsplash.com/photo-1556228578-8d89a59269d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+    technologies: ["Laravel", "Tailwind CSS", "MySQL", "PHP"],
+    github: "https://github.com/zaynounjamal/elegance-co.git",
+    external: "https://www.linkedin.com/posts/zaynounjamal_laravel-webdevelopment-ecommerce-activity-7308134557260603393-mK8g?utm_medium=ios_app&rcm=ACoAAE8bCV0BD17RP9Nk8ufI6hwxX_XACg994TM&utm_source=social_share_send&utm_campaign=copy_link",
+    image: "./elegance.png"
+   }, {
+    title: "Royal Cedar Scents E-Commerce",
+    description: "The Royal Cedar Scents website is a sleek e-commerce platform for luxury fragrances, offering seamless browsing, secure checkout, and efficient order management. Built with Laravel, PHP, MySQL, and Tailwind CSS, it ensures a smooth shopping experience.",
+    technologies: ["Laravel", "Tailwind CSS", "MySQL", "PHP"],
+    github: "https://github.com/zaynounjamal",
+    external: "https://www.linkedin.com/posts/zaynounjamal_laraveldocument-activity-7309176639639158784-T7d3?utm_medium=ios_app&rcm=ACoAAE8bCV0BD17RP9Nk8ufI6hwxX_XACg994TM&utm_source=social_share_send&utm_campaign=copy_link",
+    image: "./royal.png"
   },
   {
     title: "B-Back Restaurant Mobile Application",
-    description: "A cross-platform mobile application that revolutionized the ordering experience for a restaurant chain, featuring AI-powered menu recommendations, geolocation-based delivery tracking, and a loyalty program that increased customer retention by 35%.",
-    technologies: ["React Native", "TypeScript", "Node.js", "Express", "MongoDB", "Firebase", "Stripe", "Google Maps API"],
-    github: "#",
-    external: "#",
-    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1774&q=80"
+    description: "The B.Back Restaurant App allows customers to browse the menu, place orders, and make reservations with a seamless, user-friendly experience. Built with Java, XML, PHP, and MySQL, it ensures smooth transactions and real-time updates.",
+    technologies: ["Java", "XML", "PHP", "MYSQL"],
+    github: "https://github.com/zaynounjamal/bback_restaurant_app.git",
+    external: "https://www.linkedin.com/posts/zaynounjamal_restaurantapp-mobileappdevelopment-php-ugcPost-7297594423150825472-CkYJ?utm_medium=ios_app&rcm=ACoAAE8bCV0BD17RP9Nk8ufI6hwxX_XACg994TM&utm_source=social_share_send&utm_campaign=copy_link",
+    image: "./bback.png"
   }
 ];
 
@@ -76,7 +75,7 @@ const Projects = () => {
       </div>
       
       <div className="mt-20 text-center">
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="inline-block border border-highlight rounded px-7 py-4 text-highlight font-mono text-sm hover:bg-highlight/10 transition-colors">
+        <a href="https://github.com/zaynounjamal" target="_blank" rel="noopener noreferrer" className="inline-block border border-highlight rounded px-7 py-4 text-highlight font-mono text-sm hover:bg-highlight/10 transition-colors">
           View More Projects
         </a>
       </div>

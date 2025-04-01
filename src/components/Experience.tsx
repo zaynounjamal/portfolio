@@ -7,32 +7,35 @@ const experiences = [
     company: "Freelance",
     date: "2023 - Present",
     description: [
-      "Developed and deployed 5+ custom web applications using React.js and Laravel, resulting in an average 30% increase in client business efficiency.",
-      "Implemented AI-powered chatbot solutions that reduced customer service response times by 40% while maintaining high satisfaction rates.",
-      "Created responsive, accessible interfaces with Tailwind CSS and modern animation techniques, improving mobile user engagement by 25%.",
-      "Optimized application performance through code splitting and lazy loading, achieving a 40% improvement in load times and higher SEO rankings."
+      "Provided programming, web development, app development, social media services, editing, and graphic design.",
+      "Delivered high-quality, customized solutions for clients, ensuring satisfaction and business growth.",
+      "Built websites and applications using technologies like Laravel, PHP, MySQL, React.js, Tailwind CSS, and Java.",
+      "Optimized application performance through code splitting and lazy loading, achieving a 40% improvement in load times and higher SEO rankings.",
+      "Enhanced skills in AI, full-stack development, and emerging technologies to stay competitive."
     ]
   },
   {
     title: "Full-Stack Developer",
     company: "Royal Cedar Scents",
-    date: "2023 - Present",
+    date: "2025",
     description: [
-      "Architected and built a comprehensive e-commerce platform handling 1000+ daily users and processing 200+ transactions per day.",
-      "Integrated secure payment processing with Stripe and PayPal, implementing robust error handling and fraud prevention measures.",
-      "Designed and implemented a custom CMS for product management, enabling non-technical staff to update inventory and manage orders.",
-      "Performed A/B testing on UI components, resulting in a 15% increase in conversion rates and 20% reduction in cart abandonment."
+      "Built a fully functional e-commerce website for Royal Cedar Scents, focusing on seamless user experience.",
+      "Developed the platform using Laravel, PHP, MySQL, and Tailwind CSS for a responsive and modern design.",
+      "Integrated features for product listings, secure checkout, order tracking, and inventory management.",
+      "Implemented secure payment gateways and robust authentication to protect user data.",
+      "Ensured fast loading speeds, mobile responsiveness, and an intuitive design for better customer engagement."
     ]
   },
   {
     title: "Mobile App Developer",
     company: "B-Back Restaurant App",
-    date: "2023",
+    date: "2025",
     description: [
-      "Developed a React Native application that streamlined ordering processes, reducing order completion time by 35%.",
-      "Built a scalable Laravel backend with RESTful API architecture, capable of handling 500+ concurrent users.",
-      "Implemented real-time order tracking using WebSockets, improving customer satisfaction scores by 28%.",
-      "Optimized app performance through code profiling and refactoring, resulting in 60% faster startup time and smoother navigation."
+      "Developed a mobile application for B.Back, a restaurant in Choueifat, to enhance customer experience and streamline operations.",
+      "Built the app using Java and XML for the frontend, with PHP and MySQL for backend functionality.",
+      "Implemented features for online food ordering, table reservations, and real-time menu updates.",
+      "Integrated a secure login system and payment gateway for seamless transactions.",
+      "Designed an intuitive and responsive interface for easy navigation and an enhanced dining experience."
     ]
   }
 ];
@@ -42,7 +45,7 @@ const Experience = () => {
   
   return (
     <section id="experience">
-      <h2 className="numbered-heading">Where I've Worked</h2>
+      <h2 className="numbered-heading">What I've Worked</h2>
       
       <div className="flex flex-col md:flex-row gap-8">
         <div className="flex md:flex-col overflow-x-auto md:overflow-visible md:min-w-[140px] border-b md:border-b-0 md:border-l border-slate/20">

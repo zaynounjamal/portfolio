@@ -1,40 +1,68 @@
-
-import React from 'react';
+import React from "react";
 
 const About = () => {
   return (
     <section id="about">
       <h2 className="numbered-heading">About Me</h2>
-      
+
       <div className="grid md:grid-cols-3 gap-12">
         <div className="md:col-span-2 space-y-4 text-slate">
           <p>
-            Hello! I'm Zaynoun, a full-stack developer with a passion for creating powerful, elegant digital solutions. Currently in my final year pursuing a Computer Science degree at the Lebanese University, I combine academic knowledge with hands-on experience in modern web and mobile development.
+            I'm Zaynoun Jamal, a full-stack developer with a passion for
+            building powerful and innovative digital solutions. Currently in my
+            third year of Computer Science at Lebanese University, I have gained
+            extensive hands-on experience in web and mobile development,
+            freelancing, and managing online projects.
           </p>
-          
+
           <p>
-            My journey began with a curiosity about how digital products are built, which evolved into expertise across the entire development stack. I specialize in crafting responsive web applications with React.js and Next.js, building robust backends with Laravel and Node.js, and developing intuitive mobile experiences with React Native and Kotlin.
+            My journey began with a deep curiosity about technology, which led
+            me to develop a strong foundation in programming. I have worked with{" "}
+            <strong>Laravel, PHP, MySQL, and ASP.NET</strong> for backend
+            development, while leveraging{" "}
+            <strong>React.js, Next.js, and Tailwind CSS</strong> to create
+            responsive and modern web applications. Additionally, I have
+            experience in <strong>Java, XML, and Kotlin</strong> for mobile app
+            development.
           </p>
-          
+
           <p>
-            What sets me apart is my holistic approach to development—I don't just write code; I architect solutions that balance performance, aesthetics, and user experience. I'm particularly interested in leveraging AI technologies to create smarter applications that solve real-world problems efficiently.
+            Beyond coding, I have built and managed multiple online projects,
+            including{" "}
+            <strong>
+              e-commerce websites, mobile apps, and business platforms
+            </strong>
+            . My ability to lead projects, collaborate with teams, and solve
+            technical challenges efficiently sets me apart. I also have
+            experience in{" "}
+            <strong>
+              graphic design, social media management, and digital marketing
+            </strong>
+            , allowing me to create well-rounded digital solutions.
           </p>
-          
+
           <p>
-            When I'm not coding, I'm continuously expanding my knowledge through research, contributing to open-source projects, and mentoring aspiring developers. I'm driven by the belief that great software should be both powerful and accessible.
+            I am always learning and evolving, with a growing interest in{" "}
+            <strong>AI and full-stack development</strong>. Whether it’s working
+            on a complex web platform, optimizing UI/UX, or mentoring aspiring
+            developers, I am driven by the challenge of pushing technology
+            further and creating impactful digital experiences.
           </p>
         </div>
-        
+
         <div className="relative max-w-[300px] mx-auto md:mx-0">
           <div className="relative z-10">
             <div className="rounded overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" 
-                alt="Zaynoun Jamal" 
-                className="grayscale hover:grayscale-0 transition-all duration-300 w-full h-auto" 
+              <img
+                src="./image.png"
+                alt="Zaynoun Jamal"
+                className="grayscale hover:grayscale-0 transition-all duration-300 w-full h-auto"
               />
             </div>
-            <div className="absolute -inset-1.5 border-2 border-highlight rounded z-[-1]" style={{ transform: 'translate(15px, 15px)' }}></div>
+            <div
+              className="absolute -inset-1.5 border-2 border-highlight rounded z-[-1]"
+              style={{ transform: "translate(15px, 15px)" }}
+            ></div>
           </div>
         </div>
       </div>
