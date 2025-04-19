@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+🧑‍💻 Zaynoun Jamal – Developer Portfolio
+This is my personal developer portfolio, built with modern web technologies to showcase my skills, projects, and experience. The project is powered by Vite, Tailwind CSS, and TypeScript, and integrates with Lovable.dev for AI-assisted editing.​
 
-## Project info
+🚀 Features
+⚡ Vite – Blazing-fast development environment.
 
-**URL**: https://lovable.dev/projects/bddc45ce-f420-46c4-8d0d-a1c85530bbf1
+🎨 Tailwind CSS – Utility-first CSS framework for rapid UI development.
 
-## How can I edit this code?
+🧠 Lovable.dev Integration – Edit and deploy your site using AI prompts.
 
-There are several ways of editing your application.
+💻 TypeScript – Strongly typed JavaScript for better developer experience.
 
-**Use Lovable**
+🧩 Modular Architecture – Clean and scalable codebase.​
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bddc45ce-f420-46c4-8d0d-a1c85530bbf1) and start prompting.
+🛠️ Tech Stack
+Frontend: Vite, React (or Vanilla JS), Tailwind CSS
 
-Changes made via Lovable will be committed automatically to this repo.
+Language: TypeScript
 
-**Use your preferred IDE**
+Tooling: ESLint, PostCSS, Bun (optional)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+AI Integration: Lovable.dev​
+LinkedIn
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+📦 Installation
+Clone the repository:
+git clone https://github.com/zaynounjamal/portfolio.git
+cd portfolio
+Install dependencies:
+npm install
+Start the development server:
 npm run dev
-```
+The application will be available at http://localhost:5173/.
 
-**Edit a file directly in GitHub**
+✨ Lovable.dev Integration
+This project integrates with Lovable.dev, allowing you to edit and deploy your site using AI prompts. Changes made via Lovable will be committed automatically to this repository.​
+LinkedIn
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📁 Project Structure
+portfolio/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   └── main.ts
+├── .github/
+│   └── workflows/
+├── index.html
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── vite.config.ts
+🤝 Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.​
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/bddc45ce-f420-46c4-8d0d-a1c85530bbf1) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+📄 License
+This project is open-source and available under the MIT License.
